@@ -14,7 +14,7 @@ A simple React-based dictionary application that provides definitions, synonyms,
 - If the word doesn't exist, an error message is displayed
 
 ## Preview
-Click this link for an overview of the project
+Click [this link](https://react-dictionary-f7d798.netlify.app/) for an overview of the project
 
 
 ## Usage
