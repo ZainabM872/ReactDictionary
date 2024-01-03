@@ -1,0 +1,119 @@
+*:not(p, span){
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 3cm;
+  
+}
+
+.input{
+  margin-top: 50px;
+  padding: 10px;
+  width:80%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.word-data{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.intro{
+  display:flex;
+  justify-content:space-between;
+  margin-right: 1cm;
+}
+.word{
+  font-size: 40px;
+  font-family: serif;
+  font-weight:bold;
+  text-align:left;
+  margin-left: 1cm;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+  display: inline-flex;
+
+}
+
+hr {
+  margin-top: 0cm;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+
+}
+
+.phonetics{
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 0cm;
+  margin-left: 1.1cm;
+  margin-bottom: 0.5cm;
+  color: #528AAE;
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px 0;
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+  letter-spacing: 1px; 
+  margin-top: 100px;
+}
+
+.button{
+  background-color: #73A5C6; 
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width:200px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover{
+  background-color: #6A98B6;
+  
+}
+.speech{
+  padding-top: 1cm;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.main{
+  margin-top: 2%;
+}
